@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html",
+    "./index.html",    
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
@@ -24,10 +24,10 @@ module.exports = {
         'gray-500': '#6A6A70',
         'gray-600': '#39393F',
         'gray-700': '#000000',
-      },
-      fontFamily:{        
-          'font-family': 'Poppins, sans-serif',         
-      }            
+      },    
+      fontFamily:{
+        'font-family': 'Poppins, sans-serif',
+      }           
     },
   },
   plugins: [],
